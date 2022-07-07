@@ -8,7 +8,7 @@ run:
 all: build run
 
 clean:
-	rm -r *.cpython* out *.o *.mod
+	rm -r *.cpython* *.o *.mod
 
 build_debug:
 	gfortran -Wno-tabs -c helper.f90
